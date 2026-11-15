@@ -1,0 +1,6 @@
+{
+  "memo": "rent",
+  "amount": 10,
+  "to": "Bob",
+  "from": "Alice"
+}

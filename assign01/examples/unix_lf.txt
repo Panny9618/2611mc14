@@ -1,0 +1,2 @@
+Alice pays Bob 10
+Bob pays Carol 5
