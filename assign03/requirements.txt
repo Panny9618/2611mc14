@@ -1,0 +1,4 @@
+# Elliptic-curve maths and signatures come from the maintained `cryptography` library (OpenSSL).
+# Install the package, its dependency and the test runner with:  pip install -e ".[test]"
+cryptography>=42
+pytest>=8

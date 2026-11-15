@@ -1,0 +1,13 @@
+{
+  "tx": {
+    "version": 1,
+    "network_id": "course-testnet",
+    "sender": "mr8DwDxUXC2uut7dyDLRC11aN34Sn8wLY5",
+    "recipient": "mgt1JRtyMDGcgHtCGHNartg2HzM6TRFSJK",
+    "amount_units": 1250000,
+    "nonce": 7,
+    "memo_hash": "b300e20c1c69562a3648bb22067ab521623feedc9d002b5d669618944dbfd620"
+  },
+  "public_key": "026514a7044c53f9eae15068706cc8ba0cad82567a53ce28b5f0a6aa80d2f1327e",
+  "signature": "26AEB7E010EF0880467A3AB87E3DC243371ABAA0BD350902FF33C31DAE91DA5519BE118002DF80818E769D7571EB64EE5D80E5737B2B01BAB72B09E95D7B60E6"
+}

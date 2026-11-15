@@ -1,0 +1,28 @@
+{
+  "description": "Deterministic vector. Keys are the private scalars 1 and 2 (public keys = G and 2G). NEVER use these keys for anything: they are public knowledge.",
+  "alice": {
+    "private_scalar": 1,
+    "network_id": "course-testnet",
+    "public_key": "0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
+    "address": "mgvcECAzwwFKK3qmz5qkv1UzSBJRc91a46"
+  },
+  "bob": {
+    "private_scalar": 2,
+    "network_id": "course-testnet",
+    "public_key": "02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+    "address": "mwj1NnJUH1LMGnfndpWN5aytwWoCuU1gbR"
+  },
+  "memo": "rent for November",
+  "tx": {
+    "version": 1,
+    "network_id": "course-testnet",
+    "sender": "mgvcECAzwwFKK3qmz5qkv1UzSBJRc91a46",
+    "recipient": "mwj1NnJUH1LMGnfndpWN5aytwWoCuU1gbR",
+    "amount_units": 1250000,
+    "nonce": 7,
+    "memo_hash": "b300e20c1c69562a3648bb22067ab521623feedc9d002b5d669618944dbfd620"
+  },
+  "signed_bytes_hex": "43545800010e636f757273652d746573746e65746f0f715baf5d4c2ed329785cef29e562f73488c8a26fb1c9938f01121e159887ac2c8d393a22e4476ff800000000001312d00000000000000007b300e20c1c69562a3648bb22067ab521623feedc9d002b5d669618944dbfd620",
+  "txid": "1de8afe92fa231ae051d326ca7572333816ff05d6252474cd032924d9b6f150a",
+  "signed_bytes_len": 110
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+wallet = toywallet.cli:main

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "network_id": "course-testnet",
+  "sender": "mr8DwDxUXC2uut7dyDLRC11aN34Sn8wLY5",
+  "recipient": "mgt1JRtyMDGcgHtCGHNartg2HzM6TRFSJK",
+  "amount_units": 1250000,
+  "nonce": 7,
+  "memo_hash": "b300e20c1c69562a3648bb22067ab521623feedc9d002b5d669618944dbfd620"
+}
