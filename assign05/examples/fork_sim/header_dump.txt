@@ -1,0 +1,13 @@
+Block 1 (mined by MinerA, contains Alice pays Bob 85)
+
+ off len  field        hex
+   0   4  version      00000001   (1)
+   4  32  prev_hash    00138cbe5654a3a6a8084771edea22f3b5ff23b57eccf73937b3a2b4455b3316
+  36  32  merkle_root  188d0d641b7d947354e40178b4eb227fee6b6e65195fe40374eb010e5e99db2b
+  68   8  timestamp    000000006955bb58   (2026-01-01 00:10:00 UTC)
+  76  32  target       0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff   (16.0 leading zero bits)
+ 108   8  nonce        0000000000033920   (211,232)
+
+header bytes (116): 0000000100138cbe5654a3a6a8084771edea22f3b5ff23b57eccf73937b3a2b4455b3316188d0d641b7d947354e40178b4eb227fee6b6e65195fe40374eb010e5e99db2b000000006955bb580000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000033920
+block hash = SHA256(SHA256(header)) = 000026ce260011145a437057b7ac8ffc3de1fa0ebcf567eae14f999e7b74bf29
+hash <= target ? True   work = 65,536
