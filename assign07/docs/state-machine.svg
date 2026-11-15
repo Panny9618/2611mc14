@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 520" width="1180" height="520" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#3f3f46"/>
+    </marker>
+  </defs>
+  <rect width="1180" height="520" fill="#ffffff"/>
+  <text x="590" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#18181b">Escrow state machine</text>
+  <text x="590" y="56" text-anchor="middle" font-size="13" fill="#52525b">[who may call] · terminal states (double border) accept no further state change</text>
+
+  <!-- start marker -->
+  <circle cx="40" cy="150" r="8" fill="#18181b"/>
+  <line x1="48" y1="150" x2="78" y2="150" stroke="#3f3f46" stroke-width="2" marker-end="url(#a)"/>
+  <text x="44" y="132" font-size="11" fill="#52525b">deploy</text>
+
+  <!-- states -->
+  <g font-size="16" font-weight="bold" fill="#18181b" text-anchor="middle">
+    <rect x="80" y="125" width="150" height="50" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="155" y="156">Created</text>
+    <rect x="485" y="125" width="150" height="50" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="560" y="156">Funded</text>
+    <rect x="860" y="125" width="150" height="50" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+    <text x="935" y="156">Disputed</text>
+
+    <rect x="80" y="370" width="150" height="50" rx="10" fill="#f4f4f5" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="85" y="375" width="140" height="40" rx="7" fill="none" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="155" y="401">Cancelled</text>
+    <rect x="485" y="370" width="150" height="50" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+    <rect x="490" y="375" width="140" height="40" rx="7" fill="none" stroke="#15803d" stroke-width="1.5"/>
+    <text x="560" y="401">Released</text>
+    <rect x="760" y="370" width="170" height="50" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+    <rect x="765" y="375" width="160" height="40" rx="7" fill="none" stroke="#15803d" stroke-width="1.5"/>
+    <text x="845" y="401">ResolvedToBuyer</text>
+    <rect x="990" y="370" width="160" height="50" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+    <rect x="995" y="375" width="150" height="40" rx="7" fill="none" stroke="#15803d" stroke-width="1.5"/>
+    <text x="1070" y="401">ResolvedToSeller</text>
+  </g>
+
+  <!-- transitions -->
+  <g stroke="#3f3f46" stroke-width="2" fill="none" marker-end="url(#a)">
+    <line x1="230" y1="150" x2="483" y2="150"/>
+    <line x1="635" y1="150" x2="858" y2="150"/>
+    <line x1="155" y1="175" x2="155" y2="368"/>
+    <line x1="560" y1="175" x2="560" y2="368"/>
+    <path d="M910 175 L845 368"/>
+    <path d="M960 175 L1070 368"/>
+  </g>
+  <g font-size="12.5" fill="#18181b">
+    <text x="357" y="138" text-anchor="middle" font-weight="bold">fund()</text>
+    <text x="357" y="192" text-anchor="middle">[buyer, msg.value == amount]</text>
+    <text x="747" y="138" text-anchor="middle" font-weight="bold">raiseDispute()</text>
+    <text x="747" y="192" text-anchor="middle">[buyer or seller]</text>
+    <text x="165" y="245" font-weight="bold">approveCancel() ×2</text>
+    <text x="165" y="262">[buyer AND seller]</text>
+    <text x="165" y="279" fill="#52525b">no money moves</text>
+    <text x="548" y="240" text-anchor="end" font-weight="bold">release()</text>
+    <text x="548" y="257" text-anchor="end">[buyer]</text>
+    <text x="548" y="279" text-anchor="end" font-weight="bold">releaseWithSig()</text>
+    <text x="548" y="296" text-anchor="end">[anyone + buyer's EIP-712 sig]</text>
+    <text x="548" y="318" text-anchor="end" fill="#15803d">seller credited</text>
+    <text x="852" y="236" text-anchor="end" font-weight="bold">resolve(false)</text>
+    <text x="852" y="253" text-anchor="end">[arbiter]</text>
+    <text x="852" y="275" text-anchor="end" font-weight="bold">resolveAfterTimeout()</text>
+    <text x="852" y="292" text-anchor="end">[buyer/seller, now ≥ deadline]</text>
+    <text x="852" y="314" text-anchor="end" fill="#15803d">buyer credited</text>
+    <text x="1035" y="250" font-weight="bold">resolve(true)</text>
+    <text x="1035" y="267">[arbiter]</text>
+    <text x="1035" y="289" fill="#15803d">seller credited</text>
+  </g>
+
+  <rect x="40" y="448" width="1100" height="56" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="56" y="471" font-size="13" fill="#18181b"><tspan font-weight="bold">Pull payments:</tspan> transitions only credit a payee. <tspan font-family="Menlo, Consolas, monospace">withdraw()</tspan> / <tspan font-family="Menlo, Consolas, monospace">withdrawTo(to)</tspan> pay the credit in any state (no state change).</text>
+  <text x="56" y="492" font-size="13" fill="#18181b"><tspan font-weight="bold">Invariant:</tspan> address(this).balance == liabilities() = (Funded or Disputed ? amount : 0) + totalCredits, after every action.</text>
+</svg>
