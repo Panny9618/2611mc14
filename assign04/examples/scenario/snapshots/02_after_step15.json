@@ -1,0 +1,64 @@
+{
+  "format": "utxo-snapshot-v1",
+  "genesis_total": 160,
+  "total_fees": 3,
+  "applied_txids": [
+    "3777ae70671c5b11fa3df4655c1f18b975cf5e9de7b180d07cecc92633429286",
+    "57b5204a2149b7c2e32f1f47059fc7b5b155862ed9c1a17baa92de2a54f8e556",
+    "20897807a9c06ed2e19d9bf9fc4a197c352c6c344868c640e711f03225aff126"
+  ],
+  "utxo_count": 3,
+  "utxo_total_value": 157,
+  "utxo_set_hash": "a592800fd607fc5fec961d2461bf48da4cad147c2d339caa4e6b629e77bb0b14",
+  "utxos": [
+    {
+      "txid": "20897807a9c06ed2e19d9bf9fc4a197c352c6c344868c640e711f03225aff126",
+      "index": 0,
+      "value": 100,
+      "lock": {
+        "type": "p2pkh",
+        "pkh": "4913fb035c905f416c3f23c943e24c21304468ec"
+      }
+    },
+    {
+      "txid": "20897807a9c06ed2e19d9bf9fc4a197c352c6c344868c640e711f03225aff126",
+      "index": 1,
+      "value": 34,
+      "lock": {
+        "type": "p2pkh",
+        "pkh": "d553f472a61e4e723d61b3db656070ee0bbdbb06"
+      }
+    },
+    {
+      "txid": "57b5204a2149b7c2e32f1f47059fc7b5b155862ed9c1a17baa92de2a54f8e556",
+      "index": 1,
+      "value": 23,
+      "lock": {
+        "type": "p2pkh",
+        "pkh": "277462f44e2ef118ac9f6ad219df8624b930d995"
+      }
+    }
+  ],
+  "spent": [
+    {
+      "txid": "3777ae70671c5b11fa3df4655c1f18b975cf5e9de7b180d07cecc92633429286",
+      "index": 0,
+      "spent_by": "57b5204a2149b7c2e32f1f47059fc7b5b155862ed9c1a17baa92de2a54f8e556"
+    },
+    {
+      "txid": "3777ae70671c5b11fa3df4655c1f18b975cf5e9de7b180d07cecc92633429286",
+      "index": 1,
+      "spent_by": "57b5204a2149b7c2e32f1f47059fc7b5b155862ed9c1a17baa92de2a54f8e556"
+    },
+    {
+      "txid": "3777ae70671c5b11fa3df4655c1f18b975cf5e9de7b180d07cecc92633429286",
+      "index": 2,
+      "spent_by": "20897807a9c06ed2e19d9bf9fc4a197c352c6c344868c640e711f03225aff126"
+    },
+    {
+      "txid": "57b5204a2149b7c2e32f1f47059fc7b5b155862ed9c1a17baa92de2a54f8e556",
+      "index": 0,
+      "spent_by": "20897807a9c06ed2e19d9bf9fc4a197c352c6c344868c640e711f03225aff126"
+    }
+  ]
+}

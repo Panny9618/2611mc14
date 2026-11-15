@@ -1,0 +1,41 @@
+{
+  "format": "utxo-snapshot-v1",
+  "genesis_total": 160,
+  "total_fees": 0,
+  "applied_txids": [
+    "3777ae70671c5b11fa3df4655c1f18b975cf5e9de7b180d07cecc92633429286"
+  ],
+  "utxo_count": 3,
+  "utxo_total_value": 160,
+  "utxo_set_hash": "d0b7c239b4ec428a67ecad356a6506575616a14f9ce77e15097f2d6a50fe16ed",
+  "utxos": [
+    {
+      "txid": "3777ae70671c5b11fa3df4655c1f18b975cf5e9de7b180d07cecc92633429286",
+      "index": 0,
+      "value": 40,
+      "lock": {
+        "type": "p2pkh",
+        "pkh": "277462f44e2ef118ac9f6ad219df8624b930d995"
+      }
+    },
+    {
+      "txid": "3777ae70671c5b11fa3df4655c1f18b975cf5e9de7b180d07cecc92633429286",
+      "index": 1,
+      "value": 70,
+      "lock": {
+        "type": "p2pkh",
+        "pkh": "277462f44e2ef118ac9f6ad219df8624b930d995"
+      }
+    },
+    {
+      "txid": "3777ae70671c5b11fa3df4655c1f18b975cf5e9de7b180d07cecc92633429286",
+      "index": 2,
+      "value": 50,
+      "lock": {
+        "type": "p2pkh",
+        "pkh": "d553f472a61e4e723d61b3db656070ee0bbdbb06"
+      }
+    }
+  ],
+  "spent": []
+}

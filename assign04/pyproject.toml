@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utxolab"
+version = "1.0.0"
+description = "In-memory UTXO ledger and transaction validator (Blockchain Assignment 4)"
+requires-python = ">=3.11"
+dependencies = ["cryptography>=42"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+ledger = "utxolab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
