@@ -1,0 +1,2 @@
+[console_scripts]
+merkle = merklelab.cli:main

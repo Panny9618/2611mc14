@@ -1,0 +1,5 @@
+Alice pays Bob 10
+Bob pays Carol 5
+Carol pays Dave 3
+Dave pays Eve 2
+Eve pays Frank 1

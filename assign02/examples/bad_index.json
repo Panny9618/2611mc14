@@ -1,0 +1,18 @@
+{
+  "leaf_index": 3,
+  "tree_size": 5,
+  "siblings": [
+    {
+      "side": "right",
+      "hash": "f20226608fbc40f6a1b2fc6a82526ab5fe50bcbf6d3332d75b9ca60449a8287c"
+    },
+    {
+      "side": "left",
+      "hash": "017f6ba3e3edaace7e8b73b523574b3d6dd2ef7a89eccc9f348b61a96c7a19ec"
+    },
+    {
+      "side": "right",
+      "hash": "4c55be433da1c1cf0d2b06549b7c15a8cac345269446b6add1dfa55931350c64"
+    }
+  ]
+}

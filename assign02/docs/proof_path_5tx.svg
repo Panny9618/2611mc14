@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 765" width="1000" height="765" font-family="Helvetica, Arial, sans-serif">
+<rect width="1000" height="765" fill="#ffffff"/>
+<text x="500.0" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#18181b">Merkle inclusion proof for tx2 in a tree of 5 transactions</text>
+<line x1="100" y1="431.0" x2="200.0" y2="359.0" stroke="#d4d4d8" stroke-width="2"/>
+<line x1="300" y1="431.0" x2="200.0" y2="359.0" stroke="#d4d4d8" stroke-width="2"/>
+<line x1="500" y1="431.0" x2="600.0" y2="359.0" stroke="#1d4ed8" stroke-width="4"/>
+<line x1="700" y1="431.0" x2="600.0" y2="359.0" stroke="#d4d4d8" stroke-width="2"/>
+<line x1="900" y1="431.0" x2="900" y2="359.0" stroke="#d4d4d8" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="200.0" y1="301.0" x2="400.0" y2="229.0" stroke="#d4d4d8" stroke-width="2"/>
+<line x1="600.0" y1="301.0" x2="400.0" y2="229.0" stroke="#1d4ed8" stroke-width="4"/>
+<line x1="900" y1="301.0" x2="900" y2="229.0" stroke="#d4d4d8" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="400.0" y1="171.0" x2="650.0" y2="99.0" stroke="#1d4ed8" stroke-width="4"/>
+<line x1="900" y1="171.0" x2="650.0" y2="99.0" stroke="#d4d4d8" stroke-width="2"/>
+<rect x="25.0" y="431.0" width="150" height="58" rx="9" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="100" y="454" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">L0 = H(00‖tx0)</text>
+<text x="100" y="475" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">dd908141976c…</text>
+<rect x="225.0" y="431.0" width="150" height="58" rx="9" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="300" y="454" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">L1 = H(00‖tx1)</text>
+<text x="300" y="475" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">e49a546d4c82…</text>
+<rect x="425.0" y="431.0" width="150" height="58" rx="9" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+<text x="500" y="454" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">L2 = H(00‖tx2)</text>
+<text x="500" y="475" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">207b4815646b…</text>
+<rect x="625.0" y="431.0" width="150" height="58" rx="9" fill="#ffedd5" stroke="#c2410c" stroke-width="3"/>
+<text x="700" y="454" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">L3 = H(00‖tx3)</text>
+<text x="700" y="475" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">f20226608fbc…</text>
+<circle cx="771.0" cy="435.0" r="13" fill="#c2410c"/>
+<text x="771.0" y="440.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">S1</text>
+<rect x="825.0" y="431.0" width="150" height="58" rx="9" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="900" y="454" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">L4 = H(00‖tx4)</text>
+<text x="900" y="475" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">4c55be433da1…</text>
+<text x="100" y="511.0" text-anchor="middle" font-size="13" fill="#52525b">tx0: "Alice pays Bob 10"</text>
+<text x="300" y="511.0" text-anchor="middle" font-size="13" fill="#52525b">tx1: "Bob pays Carol 5"</text>
+<text x="500" y="511.0" text-anchor="middle" font-size="13" fill="#18181b" font-weight="bold">tx2: "Carol pays Dave 3"</text>
+<text x="700" y="511.0" text-anchor="middle" font-size="13" fill="#52525b">tx3: "Dave pays Eve 2"</text>
+<text x="900" y="511.0" text-anchor="middle" font-size="13" fill="#52525b">tx4: "Eve pays Frank 1"</text>
+<rect x="125.0" y="301.0" width="150" height="58" rx="9" fill="#ffedd5" stroke="#c2410c" stroke-width="3"/>
+<text x="200.0" y="324" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">N01</text>
+<text x="200.0" y="345" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">017f6ba3e3ed…</text>
+<circle cx="271.0" cy="305.0" r="13" fill="#c2410c"/>
+<text x="271.0" y="310.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">S2</text>
+<rect x="525.0" y="301.0" width="150" height="58" rx="9" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+<text x="600.0" y="324" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">N23</text>
+<text x="600.0" y="345" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">d6f7a3078348…</text>
+<rect x="825.0" y="301.0" width="150" height="58" rx="9" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="900" y="324" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">L4 ↑</text>
+<text x="900" y="345" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">4c55be433da1…</text>
+<rect x="325.0" y="171.0" width="150" height="58" rx="9" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+<text x="400.0" y="194" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">N0..3</text>
+<text x="400.0" y="215" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">3f1c30ebb574…</text>
+<rect x="825.0" y="171.0" width="150" height="58" rx="9" fill="#ffedd5" stroke="#c2410c" stroke-width="3"/>
+<text x="900" y="194" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">L4 ↑</text>
+<text x="900" y="215" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">4c55be433da1…</text>
+<circle cx="971.0" cy="175.0" r="13" fill="#c2410c"/>
+<text x="971.0" y="180.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">S3</text>
+<rect x="575.0" y="41.0" width="150" height="58" rx="9" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+<text x="650.0" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#18181b">ROOT</text>
+<text x="650.0" y="85" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace" fill="#52525b">beadbc0a7e8c…</text>
+<text x="40" y="551.0" font-size="15" font-weight="bold" fill="#18181b">Verifier recomputes the root using only tx2, the 3 sibling hashes and their sides:</text>
+<text x="60" y="579.0" font-size="14" font-family="Menlo, Consolas, monospace" fill="#18181b">h0 = H(0x00 ‖ &quot;Carol pays Dave 3&quot;) = 207b4815646bd134…</text>
+<text x="60" y="603.0" font-size="14" font-family="Menlo, Consolas, monospace" fill="#18181b">h1 = H(0x01 ‖ h0 ‖ S1)   [S1 is on the right]   = d6f7a3078348cafe…</text>
+<text x="60" y="627.0" font-size="14" font-family="Menlo, Consolas, monospace" fill="#18181b">h2 = H(0x01 ‖ S2 ‖ h1)   [S2 is on the left]   = 3f1c30ebb57463a6…</text>
+<text x="60" y="651.0" font-size="14" font-family="Menlo, Consolas, monospace" fill="#18181b">h3 = H(0x01 ‖ h2 ‖ S3)   [S3 is on the right]   = beadbc0a7e8cb81f…</text>
+<text x="60" y="675.0" font-size="14" font-family="Menlo, Consolas, monospace" fill="#18181b">h3 == published root beadbc0a7e8cb81f…  ⇒  VALID</text>
+<rect x="40" y="708.0" width="22" height="16" rx="3" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text x="70" y="721.0" font-size="13" fill="#52525b">target leaf and nodes the verifier computes</text>
+<rect x="360" y="708.0" width="22" height="16" rx="3" fill="#ffedd5" stroke="#c2410c" stroke-width="2"/>
+<text x="390" y="721.0" font-size="13" fill="#52525b">sibling hashes S1..Sn carried in the proof</text>
+<rect x="680" y="708.0" width="22" height="16" rx="3" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="2"/>
+<text x="710" y="721.0" font-size="13" fill="#52525b">not needed by the verifier</text>
+<text x="40" y="747.0" font-size="13" fill="#52525b">Dashed edge = unpaired node promoted unchanged to the next level (not duplicated). ↑ marks a promoted node.</text>
+</svg>
