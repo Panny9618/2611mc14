@@ -1,0 +1,173 @@
+{"ts": 1794416910.125795, "time": "17:08:30.125", "node": "n5", "peer": null, "object": null, "event": "listen", "port": 33447, "control_port": 33283, "genesis": "004aaf1846645f5b2573380ab4bd6888d70b07ce9606e9255a71ab0594340df3"}
+{"ts": 1794416910.376886, "time": "17:08:30.376", "node": "n5", "peer": "127.0.0.1:45485", "object": null, "event": "connect_out"}
+{"ts": 1794416910.377104, "time": "17:08:30.377", "node": "n5", "peer": "127.0.0.1:45485", "object": null, "event": "send_version"}
+{"ts": 1794416910.377883, "time": "17:08:30.377", "node": "n5", "peer": "127.0.0.1:45485", "object": null, "event": "recv_version"}
+{"ts": 1794416910.378001, "time": "17:08:30.378", "node": "n5", "peer": "n1", "object": null, "event": "send_verack"}
+{"ts": 1794416910.37822, "time": "17:08:30.378", "node": "n5", "peer": "n1", "object": null, "event": "recv_verack"}
+{"ts": 1794416910.378286, "time": "17:08:30.378", "node": "n5", "peer": "n1", "object": null, "event": "handshake_done", "outbound": true}
+{"ts": 1794416910.378355, "time": "17:08:30.378", "node": "n5", "peer": "n1", "object": null, "event": "send_getaddr"}
+{"ts": 1794416910.37846, "time": "17:08:30.378", "node": "n5", "peer": "n1", "object": null, "event": "send_getblocks"}
+{"ts": 1794416910.378887, "time": "17:08:30.378", "node": "n5", "peer": "n1", "object": null, "event": "recv_getaddr"}
+{"ts": 1794416910.379626, "time": "17:08:30.379", "node": "n5", "peer": "n1", "object": null, "event": "send_addr"}
+{"ts": 1794416910.37975, "time": "17:08:30.379", "node": "n5", "peer": "n1", "object": null, "event": "recv_getblocks"}
+{"ts": 1794416910.379991, "time": "17:08:30.379", "node": "n5", "peer": "n1", "object": null, "event": "recv_addr"}
+{"ts": 1794416910.380068, "time": "17:08:30.380", "node": "n2", "peer": "n1", "object": null, "event": "addr_learned", "port": 43839}
+{"ts": 1794416910.380128, "time": "17:08:30.380", "node": "n3", "peer": "n1", "object": null, "event": "addr_learned", "port": 37843}
+{"ts": 1794416910.380179, "time": "17:08:30.380", "node": "n4", "peer": "n1", "object": null, "event": "addr_learned", "port": 33951}
+{"ts": 1794416910.439375, "time": "17:08:30.439", "node": "n5", "peer": "127.0.0.1:44888", "object": null, "event": "accept_in"}
+{"ts": 1794416910.441118, "time": "17:08:30.441", "node": "n5", "peer": "127.0.0.1:44888", "object": null, "event": "recv_version"}
+{"ts": 1794416910.441252, "time": "17:08:30.441", "node": "n5", "peer": "n4", "object": null, "event": "send_version"}
+{"ts": 1794416910.441325, "time": "17:08:30.441", "node": "n5", "peer": "n4", "object": null, "event": "send_verack"}
+{"ts": 1794416910.442948, "time": "17:08:30.442", "node": "n5", "peer": "n4", "object": null, "event": "recv_verack"}
+{"ts": 1794416910.443553, "time": "17:08:30.443", "node": "n5", "peer": "n4", "object": null, "event": "handshake_done", "outbound": false}
+{"ts": 1794416910.443644, "time": "17:08:30.443", "node": "n5", "peer": "n4", "object": null, "event": "send_getaddr"}
+{"ts": 1794416910.443723, "time": "17:08:30.443", "node": "n5", "peer": "n1", "object": null, "event": "send_addr"}
+{"ts": 1794416910.443788, "time": "17:08:30.443", "node": "n5", "peer": "n4", "object": null, "event": "send_getblocks"}
+{"ts": 1794416910.44388, "time": "17:08:30.443", "node": "n5", "peer": "n4", "object": null, "event": "recv_getaddr"}
+{"ts": 1794416910.443965, "time": "17:08:30.443", "node": "n5", "peer": "n4", "object": null, "event": "send_addr"}
+{"ts": 1794416910.444304, "time": "17:08:30.444", "node": "n5", "peer": "n4", "object": null, "event": "recv_getblocks"}
+{"ts": 1794416910.446214, "time": "17:08:30.446", "node": "n5", "peer": "n4", "object": null, "event": "recv_addr"}
+{"ts": 1794416910.472533, "time": "17:08:30.472", "node": "n5", "peer": null, "object": null, "event": "latency_set", "ms": 25.0, "jitter": 15.0}
+{"ts": 1794416910.585842, "time": "17:08:30.585", "node": "n5", "peer": "n1", "object": "1 items", "event": "recv_inv", "requested": 1}
+{"ts": 1794416910.586, "time": "17:08:30.586", "node": "n5", "peer": "n1", "object": "tx:a3d261b05001", "event": "send_getdata"}
+{"ts": 1794416910.626752, "time": "17:08:30.626", "node": "n5", "peer": "n4", "object": null, "event": "send_getaddr"}
+{"ts": 1794416910.627317, "time": "17:08:30.627", "node": "n5", "peer": "127.0.0.1:43839", "object": null, "event": "connect_out"}
+{"ts": 1794416910.627445, "time": "17:08:30.627", "node": "n5", "peer": "127.0.0.1:43839", "object": null, "event": "send_version"}
+{"ts": 1794416910.647569, "time": "17:08:30.647", "node": "n5", "peer": "n1", "object": "tx:a3d261b050017b3abcaccc31836022e11171c213188ba0b1860686ddeaf2d8b1", "event": "recv_tx"}
+{"ts": 1794416910.648948, "time": "17:08:30.648", "node": "n5", "peer": "n1", "object": "tx:a3d261b050017b3abcaccc31836022e11171c213188ba0b1860686ddeaf2d8b1", "event": "tx_accepted", "status": "ACCEPTED", "evicted": [], "feerate": 0.005}
+{"ts": 1794416910.649069, "time": "17:08:30.649", "node": "n5", "peer": "n4", "object": "tx:a3d261b050017b3abcaccc31836022e11171c213188ba0b1860686ddeaf2d8b1", "event": "send_inv"}
+{"ts": 1794416910.649127, "time": "17:08:30.649", "node": "n5", "peer": null, "object": "tx:a3d261b050017b3abcaccc31836022e11171c213188ba0b1860686ddeaf2d8b1", "event": "relay", "to": 1}
+{"ts": 1794416910.659241, "time": "17:08:30.659", "node": "n5", "peer": null, "object": "block:00023b10d1ddc40a8f04c44192a20b49c9a0390c63f543d9553df993ffa1ddfb", "event": "mined", "attempts": 632, "txs": 1}
+{"ts": 1794416910.660045, "time": "17:08:30.660", "node": "n5", "peer": null, "object": "block:00023b10d1ddc40a8f04c44192a20b49c9a0390c63f543d9553df993ffa1ddfb", "event": "block_connected", "height": 1, "code": null, "reason": ""}
+{"ts": 1794416910.660153, "time": "17:08:30.660", "node": "n5", "peer": "n1", "object": "block:00023b10d1ddc40a8f04c44192a20b49c9a0390c63f543d9553df993ffa1ddfb", "event": "send_inv"}
+{"ts": 1794416910.66024, "time": "17:08:30.660", "node": "n5", "peer": "n4", "object": "block:00023b10d1ddc40a8f04c44192a20b49c9a0390c63f543d9553df993ffa1ddfb", "event": "send_inv"}
+{"ts": 1794416910.660295, "time": "17:08:30.660", "node": "n5", "peer": null, "object": "block:00023b10d1ddc40a8f04c44192a20b49c9a0390c63f543d9553df993ffa1ddfb", "event": "relay", "to": 2}
+{"ts": 1794416910.660365, "time": "17:08:30.660", "node": "n5", "peer": null, "object": "tx:a3d261b050017b3abcaccc31836022e11171c213188ba0b1860686ddeaf2d8b1", "event": "mempool_removed", "reason": "confirmed or inputs spent"}
+{"ts": 1794416910.674686, "time": "17:08:30.674", "node": "n5", "peer": "n4", "object": "1 items", "event": "recv_inv", "requested": 0}
+{"ts": 1794416910.67508, "time": "17:08:30.675", "node": "n5", "peer": "127.0.0.1:43839", "object": null, "event": "recv_version"}
+{"ts": 1794416910.675178, "time": "17:08:30.675", "node": "n5", "peer": "n2", "object": null, "event": "send_verack"}
+{"ts": 1794416910.682285, "time": "17:08:30.682", "node": "n5", "peer": "n2", "object": null, "event": "recv_verack"}
+{"ts": 1794416910.682361, "time": "17:08:30.682", "node": "n5", "peer": "n2", "object": null, "event": "handshake_done", "outbound": true}
+{"ts": 1794416910.682487, "time": "17:08:30.682", "node": "n5", "peer": "n2", "object": null, "event": "send_getaddr"}
+{"ts": 1794416910.682596, "time": "17:08:30.682", "node": "n5", "peer": "n1", "object": null, "event": "send_addr"}
+{"ts": 1794416910.682695, "time": "17:08:30.682", "node": "n5", "peer": "n4", "object": null, "event": "send_addr"}
+{"ts": 1794416910.682788, "time": "17:08:30.682", "node": "n5", "peer": "n2", "object": null, "event": "send_getblocks"}
+{"ts": 1794416910.686579, "time": "17:08:30.686", "node": "n5", "peer": "n4", "object": null, "event": "recv_addr"}
+{"ts": 1794416910.70698, "time": "17:08:30.706", "node": "n5", "peer": "n4", "object": "block:00023b10d1ddc40a8f04c44192a20b49c9a0390c63f543d9553df993ffa1ddfb", "event": "send_block"}
+{"ts": 1794416910.716264, "time": "17:08:30.716", "node": "n5", "peer": "n1", "object": "block:00023b10d1ddc40a8f04c44192a20b49c9a0390c63f543d9553df993ffa1ddfb", "event": "send_block"}
+{"ts": 1794416910.717315, "time": "17:08:30.717", "node": "n5", "peer": "n2", "object": null, "event": "recv_getaddr"}
+{"ts": 1794416910.717468, "time": "17:08:30.717", "node": "n5", "peer": "n2", "object": null, "event": "send_addr"}
+{"ts": 1794416910.717619, "time": "17:08:30.717", "node": "n5", "peer": "n2", "object": null, "event": "recv_getblocks"}
+{"ts": 1794416910.717724, "time": "17:08:30.717", "node": "n5", "peer": "n2", "object": "1 blocks after height 0", "event": "send_inv"}
+{"ts": 1794416910.717844, "time": "17:08:30.717", "node": "n5", "peer": "n2", "object": "1 items", "event": "recv_inv", "requested": 0}
+{"ts": 1794416910.734067, "time": "17:08:30.734", "node": "n5", "peer": "n2", "object": null, "event": "recv_addr"}
+{"ts": 1794416910.76659, "time": "17:08:30.766", "node": "n5", "peer": "n2", "object": "block:00023b10d1ddc40a8f04c44192a20b49c9a0390c63f543d9553df993ffa1ddfb", "event": "send_block"}
+{"ts": 1794416910.930111, "time": "17:08:30.930", "node": "n5", "peer": "n1", "object": null, "event": "disconnect", "reason": "connection closed by peer", "score": 0}
+{"ts": 1794416910.932093, "time": "17:08:30.932", "node": "n5", "peer": "n2", "object": null, "event": "disconnect", "reason": "connection closed by peer", "score": 0}
+{"ts": 1794416910.933707, "time": "17:08:30.933", "node": "n5", "peer": null, "object": null, "event": "partition", "blocked": ["n1", "n2"]}
+{"ts": 1794416911.005222, "time": "17:08:31.005", "node": "n5", "peer": "127.0.0.1:44902", "object": null, "event": "accept_in"}
+{"ts": 1794416911.033991, "time": "17:08:31.033", "node": "n5", "peer": "127.0.0.1:44902", "object": null, "event": "recv_version"}
+{"ts": 1794416911.034184, "time": "17:08:31.034", "node": "n5", "peer": "n3", "object": null, "event": "send_version"}
+{"ts": 1794416911.034275, "time": "17:08:31.034", "node": "n5", "peer": "n3", "object": null, "event": "send_verack"}
+{"ts": 1794416911.085492, "time": "17:08:31.085", "node": "n5", "peer": "n4", "object": "1 items", "event": "recv_inv", "requested": 1}
+{"ts": 1794416911.085773, "time": "17:08:31.085", "node": "n5", "peer": "n4", "object": "tx:9667cb5b4fb1", "event": "send_getdata"}
+{"ts": 1794416911.089682, "time": "17:08:31.089", "node": "n5", "peer": "n3", "object": null, "event": "recv_verack"}
+{"ts": 1794416911.089768, "time": "17:08:31.089", "node": "n5", "peer": "n3", "object": null, "event": "handshake_done", "outbound": false}
+{"ts": 1794416911.089858, "time": "17:08:31.089", "node": "n5", "peer": "n3", "object": null, "event": "send_getaddr"}
+{"ts": 1794416911.089953, "time": "17:08:31.089", "node": "n5", "peer": "n4", "object": null, "event": "send_addr"}
+{"ts": 1794416911.090047, "time": "17:08:31.090", "node": "n5", "peer": "n3", "object": null, "event": "send_getblocks"}
+{"ts": 1794416911.090168, "time": "17:08:31.090", "node": "n5", "peer": "n3", "object": null, "event": "recv_getaddr"}
+{"ts": 1794416911.090264, "time": "17:08:31.090", "node": "n5", "peer": "n3", "object": null, "event": "send_addr"}
+{"ts": 1794416911.090422, "time": "17:08:31.090", "node": "n5", "peer": "n3", "object": null, "event": "recv_getblocks"}
+{"ts": 1794416911.130782, "time": "17:08:31.130", "node": "n5", "peer": "n4", "object": "tx:9667cb5b4fb1a5685c06873655f9152053ea44c84b18132c6edd43075f29d876", "event": "recv_tx"}
+{"ts": 1794416911.131809, "time": "17:08:31.131", "node": "n5", "peer": "n4", "object": "tx:9667cb5b4fb1a5685c06873655f9152053ea44c84b18132c6edd43075f29d876", "event": "tx_accepted", "status": "ACCEPTED", "evicted": [], "feerate": 0.005}
+{"ts": 1794416911.131935, "time": "17:08:31.131", "node": "n5", "peer": "n3", "object": "tx:9667cb5b4fb1a5685c06873655f9152053ea44c84b18132c6edd43075f29d876", "event": "send_inv"}
+{"ts": 1794416911.132004, "time": "17:08:31.132", "node": "n5", "peer": null, "object": "tx:9667cb5b4fb1a5685c06873655f9152053ea44c84b18132c6edd43075f29d876", "event": "relay", "to": 1}
+{"ts": 1794416911.140889, "time": "17:08:31.140", "node": "n5", "peer": "n3", "object": null, "event": "recv_addr"}
+{"ts": 1794416911.177818, "time": "17:08:31.177", "node": "n5", "peer": "n3", "object": "1 items", "event": "recv_inv", "requested": 0}
+{"ts": 1794416911.206265, "time": "17:08:31.206", "node": "n5", "peer": "n4", "object": "1 items", "event": "recv_inv", "requested": 1}
+{"ts": 1794416911.206451, "time": "17:08:31.206", "node": "n5", "peer": "n4", "object": "block:0006eb1996bb", "event": "send_getdata"}
+{"ts": 1794416911.251152, "time": "17:08:31.251", "node": "n5", "peer": "n4", "object": "block:0006eb1996bba7f2eb86118eec9f2ad4a359ad8ea958e00b166902723654028d", "event": "recv_block"}
+{"ts": 1794416911.252182, "time": "17:08:31.252", "node": "n5", "peer": "n4", "object": "block:0006eb1996bba7f2eb86118eec9f2ad4a359ad8ea958e00b166902723654028d", "event": "block_connected", "height": 2, "code": null, "reason": ""}
+{"ts": 1794416911.252298, "time": "17:08:31.252", "node": "n5", "peer": "n3", "object": "block:0006eb1996bba7f2eb86118eec9f2ad4a359ad8ea958e00b166902723654028d", "event": "send_inv"}
+{"ts": 1794416911.252359, "time": "17:08:31.252", "node": "n5", "peer": null, "object": "block:0006eb1996bba7f2eb86118eec9f2ad4a359ad8ea958e00b166902723654028d", "event": "relay", "to": 1}
+{"ts": 1794416911.252465, "time": "17:08:31.252", "node": "n5", "peer": null, "object": "tx:9667cb5b4fb1a5685c06873655f9152053ea44c84b18132c6edd43075f29d876", "event": "mempool_removed", "reason": "confirmed or inputs spent"}
+{"ts": 1794416911.277612, "time": "17:08:31.277", "node": "n5", "peer": "n3", "object": "1 items", "event": "recv_inv", "requested": 0}
+{"ts": 1794416911.301558, "time": "17:08:31.301", "node": "n5", "peer": null, "object": "block:00026385db63deb08cd18385540612fcbcc6d0e626564aaafb4d969ce192c5f4", "event": "mined", "attempts": 6343, "txs": 0}
+{"ts": 1794416911.301863, "time": "17:08:31.301", "node": "n5", "peer": null, "object": "block:00026385db63deb08cd18385540612fcbcc6d0e626564aaafb4d969ce192c5f4", "event": "block_connected", "height": 3, "code": null, "reason": ""}
+{"ts": 1794416911.301989, "time": "17:08:31.301", "node": "n5", "peer": "n4", "object": "block:00026385db63deb08cd18385540612fcbcc6d0e626564aaafb4d969ce192c5f4", "event": "send_inv"}
+{"ts": 1794416911.302085, "time": "17:08:31.302", "node": "n5", "peer": "n3", "object": "block:00026385db63deb08cd18385540612fcbcc6d0e626564aaafb4d969ce192c5f4", "event": "send_inv"}
+{"ts": 1794416911.302147, "time": "17:08:31.302", "node": "n5", "peer": null, "object": "block:00026385db63deb08cd18385540612fcbcc6d0e626564aaafb4d969ce192c5f4", "event": "relay", "to": 2}
+{"ts": 1794416911.355307, "time": "17:08:31.355", "node": "n5", "peer": "n4", "object": "block:00026385db63deb08cd18385540612fcbcc6d0e626564aaafb4d969ce192c5f4", "event": "send_block"}
+{"ts": 1794416911.360493, "time": "17:08:31.360", "node": "n5", "peer": "n3", "object": "block:00026385db63deb08cd18385540612fcbcc6d0e626564aaafb4d969ce192c5f4", "event": "send_block"}
+{"ts": 1794416911.417793, "time": "17:08:31.417", "node": "n5", "peer": null, "object": null, "event": "heal", "unblocked": ["n1", "n2"]}
+{"ts": 1794416911.520469, "time": "17:08:31.520", "node": "n5", "peer": "n4", "object": null, "event": "recv_addr"}
+{"ts": 1794416911.588253, "time": "17:08:31.588", "node": "n5", "peer": "127.0.0.1:44912", "object": null, "event": "accept_in"}
+{"ts": 1794416911.602841, "time": "17:08:31.602", "node": "n5", "peer": "127.0.0.1:44912", "object": null, "event": "recv_version"}
+{"ts": 1794416911.602967, "time": "17:08:31.602", "node": "n5", "peer": "n2", "object": null, "event": "send_version"}
+{"ts": 1794416911.603046, "time": "17:08:31.603", "node": "n5", "peer": "n2", "object": null, "event": "send_verack"}
+{"ts": 1794416911.630857, "time": "17:08:31.630", "node": "n5", "peer": "127.0.0.1:45485", "object": null, "event": "connect_out"}
+{"ts": 1794416911.630987, "time": "17:08:31.630", "node": "n5", "peer": "127.0.0.1:45485", "object": null, "event": "send_version"}
+{"ts": 1794416911.639713, "time": "17:08:31.639", "node": "n5", "peer": "127.0.0.1:44922", "object": null, "event": "accept_in"}
+{"ts": 1794416911.667192, "time": "17:08:31.667", "node": "n5", "peer": "127.0.0.1:45485", "object": null, "event": "recv_version"}
+{"ts": 1794416911.667433, "time": "17:08:31.667", "node": "n5", "peer": "n1", "object": null, "event": "send_verack"}
+{"ts": 1794416911.668718, "time": "17:08:31.668", "node": "n5", "peer": "n4", "object": "1 items", "event": "recv_inv", "requested": 1}
+{"ts": 1794416911.668817, "time": "17:08:31.668", "node": "n5", "peer": "n4", "object": "block:0007b6459a10", "event": "send_getdata"}
+{"ts": 1794416911.677451, "time": "17:08:31.677", "node": "n5", "peer": "127.0.0.1:44922", "object": null, "event": "recv_version"}
+{"ts": 1794416911.677609, "time": "17:08:31.677", "node": "n5", "peer": "n1", "object": null, "event": "disconnect", "reason": "replaced by duplicate connection", "score": 0}
+{"ts": 1794416911.677725, "time": "17:08:31.677", "node": "n5", "peer": "n1", "object": null, "event": "send_version"}
+{"ts": 1794416911.677776, "time": "17:08:31.677", "node": "n5", "peer": "n1", "object": null, "event": "send_verack"}
+{"ts": 1794416911.678675, "time": "17:08:31.678", "node": "n5", "peer": "n2", "object": null, "event": "recv_verack"}
+{"ts": 1794416911.678756, "time": "17:08:31.678", "node": "n5", "peer": "n2", "object": null, "event": "handshake_done", "outbound": false}
+{"ts": 1794416911.678869, "time": "17:08:31.678", "node": "n5", "peer": "n2", "object": null, "event": "send_getaddr"}
+{"ts": 1794416911.678999, "time": "17:08:31.678", "node": "n5", "peer": "n4", "object": null, "event": "send_addr"}
+{"ts": 1794416911.679079, "time": "17:08:31.679", "node": "n5", "peer": "n3", "object": null, "event": "send_addr"}
+{"ts": 1794416911.679163, "time": "17:08:31.679", "node": "n5", "peer": "n2", "object": null, "event": "send_getblocks"}
+{"ts": 1794416911.679328, "time": "17:08:31.679", "node": "n5", "peer": "n2", "object": null, "event": "recv_getaddr"}
+{"ts": 1794416911.679445, "time": "17:08:31.679", "node": "n5", "peer": "n2", "object": null, "event": "send_addr"}
+{"ts": 1794416911.682871, "time": "17:08:31.682", "node": "n5", "peer": "n2", "object": null, "event": "recv_getblocks"}
+{"ts": 1794416911.682997, "time": "17:08:31.682", "node": "n5", "peer": "n2", "object": "2 blocks after height 1", "event": "send_inv"}
+{"ts": 1794416911.692748, "time": "17:08:31.692", "node": "n5", "peer": "n2", "object": "1 items", "event": "recv_inv", "requested": 0}
+{"ts": 1794416911.706303, "time": "17:08:31.706", "node": "n5", "peer": "n3", "object": "1 items", "event": "recv_inv", "requested": 0}
+{"ts": 1794416911.708798, "time": "17:08:31.708", "node": "n5", "peer": "n2", "object": "1 items", "event": "recv_inv", "requested": 0}
+{"ts": 1794416911.70937, "time": "17:08:31.709", "node": "n5", "peer": "n4", "object": "block:0007b6459a10a7eb3fa42e859f7aff409c8126dbad4c936e369c9142792652e2", "event": "recv_block"}
+{"ts": 1794416911.709572, "time": "17:08:31.709", "node": "n5", "peer": "n4", "object": "block:0007b6459a10a7eb3fa42e859f7aff409c8126dbad4c936e369c9142792652e2", "event": "block_side_branch", "height": 2, "code": null, "reason": "stored; branch work 8,448 <= active 12,544"}
+{"ts": 1794416911.709661, "time": "17:08:31.709", "node": "n5", "peer": "n2", "object": "block:0007b6459a10a7eb3fa42e859f7aff409c8126dbad4c936e369c9142792652e2", "event": "send_inv"}
+{"ts": 1794416911.709716, "time": "17:08:31.709", "node": "n5", "peer": null, "object": "block:0007b6459a10a7eb3fa42e859f7aff409c8126dbad4c936e369c9142792652e2", "event": "relay", "to": 1}
+{"ts": 1794416911.710025, "time": "17:08:31.710", "node": "n5", "peer": "n1", "object": null, "event": "recv_verack"}
+{"ts": 1794416911.710082, "time": "17:08:31.710", "node": "n5", "peer": "n1", "object": null, "event": "handshake_done", "outbound": false}
+{"ts": 1794416911.710156, "time": "17:08:31.710", "node": "n5", "peer": "n1", "object": null, "event": "send_getaddr"}
+{"ts": 1794416911.710243, "time": "17:08:31.710", "node": "n5", "peer": "n4", "object": null, "event": "send_addr"}
+{"ts": 1794416911.710329, "time": "17:08:31.710", "node": "n5", "peer": "n3", "object": null, "event": "send_addr"}
+{"ts": 1794416911.710435, "time": "17:08:31.710", "node": "n5", "peer": "n2", "object": null, "event": "send_addr"}
+{"ts": 1794416911.710507, "time": "17:08:31.710", "node": "n5", "peer": "n1", "object": null, "event": "send_getblocks"}
+{"ts": 1794416911.716994, "time": "17:08:31.716", "node": "n5", "peer": "n2", "object": "1 items", "event": "recv_inv", "requested": 1}
+{"ts": 1794416911.717104, "time": "17:08:31.717", "node": "n5", "peer": "n2", "object": "tx:c6b390721360", "event": "send_getdata"}
+{"ts": 1794416911.737413, "time": "17:08:31.737", "node": "n5", "peer": "n3", "object": null, "event": "recv_addr"}
+{"ts": 1794416911.740858, "time": "17:08:31.740", "node": "n5", "peer": "n1", "object": null, "event": "recv_getaddr"}
+{"ts": 1794416911.740965, "time": "17:08:31.740", "node": "n5", "peer": "n1", "object": null, "event": "send_addr"}
+{"ts": 1794416911.741079, "time": "17:08:31.741", "node": "n5", "peer": "n1", "object": null, "event": "recv_getblocks"}
+{"ts": 1794416911.752795, "time": "17:08:31.752", "node": "n5", "peer": "n1", "object": "1 items", "event": "recv_inv", "requested": 0}
+{"ts": 1794416911.752936, "time": "17:08:31.752", "node": "n5", "peer": "n1", "object": null, "event": "recv_addr"}
+{"ts": 1794416911.757514, "time": "17:08:31.757", "node": "n5", "peer": "n4", "object": "1 items", "event": "recv_inv", "requested": 0}
+{"ts": 1794416911.760045, "time": "17:08:31.760", "node": "n5", "peer": "n2", "object": null, "event": "recv_addr"}
+{"ts": 1794416911.766315, "time": "17:08:31.766", "node": "n5", "peer": "n2", "object": "tx:c6b3907213605a7e1bc3868774749c54f6c117d142762606f4bfaeefda002884", "event": "recv_tx"}
+{"ts": 1794416911.767515, "time": "17:08:31.767", "node": "n5", "peer": "n2", "object": "tx:c6b3907213605a7e1bc3868774749c54f6c117d142762606f4bfaeefda002884", "event": "tx_accepted", "status": "ACCEPTED", "evicted": [], "feerate": 0.01}
+{"ts": 1794416911.767622, "time": "17:08:31.767", "node": "n5", "peer": "n3", "object": "tx:c6b3907213605a7e1bc3868774749c54f6c117d142762606f4bfaeefda002884", "event": "send_inv"}
+{"ts": 1794416911.767671, "time": "17:08:31.767", "node": "n5", "peer": null, "object": "tx:c6b3907213605a7e1bc3868774749c54f6c117d142762606f4bfaeefda002884", "event": "relay", "to": 1}
+{"ts": 1794416911.874776, "time": "17:08:31.874", "node": "n5", "peer": "n2", "object": "1 items", "event": "recv_inv", "requested": 1}
+{"ts": 1794416911.874892, "time": "17:08:31.874", "node": "n5", "peer": "n2", "object": "block:000874d1f7a9", "event": "send_getdata"}
+{"ts": 1794416911.91199, "time": "17:08:31.911", "node": "n5", "peer": "n2", "object": "block:000874d1f7a99412f4f5942b400f52e0abfa762474c0d39d46e17e053e49ec4a", "event": "recv_block"}
+{"ts": 1794416911.913036, "time": "17:08:31.913", "node": "n5", "peer": "n2", "object": "block:000874d1f7a99412f4f5942b400f52e0abfa762474c0d39d46e17e053e49ec4a", "event": "block_connected", "height": 4, "code": null, "reason": ""}
+{"ts": 1794416911.913153, "time": "17:08:31.913", "node": "n5", "peer": "n4", "object": "block:000874d1f7a99412f4f5942b400f52e0abfa762474c0d39d46e17e053e49ec4a", "event": "send_inv"}
+{"ts": 1794416911.913243, "time": "17:08:31.913", "node": "n5", "peer": "n3", "object": "block:000874d1f7a99412f4f5942b400f52e0abfa762474c0d39d46e17e053e49ec4a", "event": "send_inv"}
+{"ts": 1794416911.91333, "time": "17:08:31.913", "node": "n5", "peer": "n1", "object": "block:000874d1f7a99412f4f5942b400f52e0abfa762474c0d39d46e17e053e49ec4a", "event": "send_inv"}
+{"ts": 1794416911.913381, "time": "17:08:31.913", "node": "n5", "peer": null, "object": "block:000874d1f7a99412f4f5942b400f52e0abfa762474c0d39d46e17e053e49ec4a", "event": "relay", "to": 3}
+{"ts": 1794416911.913481, "time": "17:08:31.913", "node": "n5", "peer": null, "object": "tx:c6b3907213605a7e1bc3868774749c54f6c117d142762606f4bfaeefda002884", "event": "mempool_removed", "reason": "confirmed or inputs spent"}
+{"ts": 1794416911.968779, "time": "17:08:31.968", "node": "n5", "peer": "n3", "object": "block:000874d1f7a99412f4f5942b400f52e0abfa762474c0d39d46e17e053e49ec4a", "event": "send_block"}
+{"ts": 1794416911.970783, "time": "17:08:31.970", "node": "n5", "peer": "n4", "object": "block:000874d1f7a99412f4f5942b400f52e0abfa762474c0d39d46e17e053e49ec4a", "event": "send_block"}
+{"ts": 1794416911.974223, "time": "17:08:31.974", "node": "n5", "peer": "n1", "object": "1 items", "event": "recv_inv", "requested": 0}
+{"ts": 1794416912.080008, "time": "17:08:32.080", "node": "n5", "peer": "n1", "object": null, "event": "disconnect", "reason": "connection closed by peer", "score": 0}
+{"ts": 1794416912.081605, "time": "17:08:32.081", "node": "n5", "peer": "n2", "object": null, "event": "disconnect", "reason": "connection closed by peer", "score": 0}
+{"ts": 1794416912.083536, "time": "17:08:32.083", "node": "n5", "peer": "n3", "object": null, "event": "disconnect", "reason": "connection closed by peer", "score": 0}
+{"ts": 1794416912.083645, "time": "17:08:32.083", "node": "n5", "peer": "n4", "object": null, "event": "disconnect", "reason": "connection closed by peer", "score": 0}
